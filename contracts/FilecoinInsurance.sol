@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import {SafeMath} from "@openzeppelin/contracts/"
-import {MarketMockAPI} from "./TestContrct.sol";
+import {SafeMath} from "@openzeppelin/contracts/utils/math/SafeMath.sol";
+import {MarketMockAPI} from "./Mock/MarketMockAPI.sol";
 
 contract FilecoinInsurance {
     MarketMockAPI private MarketAPI;
